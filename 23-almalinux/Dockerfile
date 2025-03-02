@@ -2,7 +2,7 @@
 FROM almalinux:9.5
 
 # Set environment variables for GraalVM
-ENV GRAALVM_TAR_URL https://download.oracle.com/graalvm/22/archive/graalvm-jdk-22_linux-x64_bin.tar.gz
+ENV GRAALVM_TAR_URL https://download.oracle.com/graalvm/23/latest/graalvm-jdk-23_linux-x64_bin.tar.gz
 ENV GRAALVM_DIR /usr/lib/graalvm
 
 RUN mkdir $GRAALVM_DIR && curl -L $GRAALVM_TAR_URL | tar -xz --strip-components=1 -C $GRAALVM_DIR
