@@ -1,5 +1,5 @@
-# Use the official Alpine base image
-FROM almalinux:9.5
+# Use the official Almalinux base image
+FROM almalinux:9.6
 
 # Set environment variables for GraalVM
 ENV GRAALVM_TAR_URL https://download.oracle.com/graalvm/22/archive/graalvm-jdk-22_linux-x64_bin.tar.gz
