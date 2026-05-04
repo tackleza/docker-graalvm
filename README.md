@@ -2,6 +2,9 @@
 
 ![GraalVM](https://img.shields.io/badge/GraalVM-Ready-orange)
 
+**GitHub:** https://github.com/tackleza/docker-graalvm
+**Docker Hub:** https://hub.docker.com/r/tackleza/graalvm
+
 Docker images for Oracle GraalVM Community Edition on AlmaLinux 9.
 
 **Docker Hub:** https://hub.docker.com/r/tackleza/graalvm
