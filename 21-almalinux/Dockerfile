@@ -1,6 +1,10 @@
 # Use the official Almalinux base image
 FROM almalinux:9.6
 
+# Include timezone data and use UTC unless TZ is overridden at runtime
+RUN dnf install -y tzdata && dnf clean all
+ENV TZ=UTC
+
 # Set environment variables for GraalVM
 ENV GRAALVM_TAR_URL https://download.oracle.com/graalvm/21/archive/graalvm-jdk-21.0.2_linux-x64_bin.tar.gz
 ENV GRAALVM_DIR /usr/lib/graalvm

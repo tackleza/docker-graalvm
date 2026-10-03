@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t tackleza/graalvm:25-almalinux .
+docker build --pull -t tackleza/graalvm:25-almalinux .

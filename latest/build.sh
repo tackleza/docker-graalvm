@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t tackleza/graalvm:latest .
+docker build --pull -t tackleza/graalvm:latest .
